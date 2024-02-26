@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+.navcontainer{ 
+    display: flex;
+background: #3884F2;
+background: linear-gradient(135deg, #3884F2, #000000);
+justify-content: space-between;
+height: 80px;
+
+}
+.headin{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+ .new a{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-decoration: none;
+    color: white;
+    
+
+}
+.new a:hover{
+    background-color: white;
+    border-radius: 20px;
+    justify-content: center;
+    color: black;
+}
+.new{
+    display: flex;
+    gap: 30px;
+}
+.footline{
+    background: #3884F2;
+background: linear-gradient(135deg, #3884F2, #000000);
+width: 100%;
+text-align: center;
+min-height: 40px;
+
+}
+.footline p{
+    color: white;
+    font-size: 2rem;
+}
+.poster{
+    margin-right: 100px;
+    margin-left: 100px;
+    border: 2px solid black;
+
+}
+.box{
+    display: flex;
+    transition: all 0.6s linear 0s;
+}
+.text1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.para{
+    margin: 70px;
+}
+.box:hover{
+    background: #3884F2;
+    background: linear-gradient(135deg, #3884F2, #000000);
+    color: white;
+    transform: scale(0.8);
+    box-shadow: 5px 10px 10px rgb(22, 56, 63);
+}
+/* .img1 img{
+    transition: all 0.6s linear 0s;
+}
+.img1 img:hover{
+    transform: scale(1.1);
+} */
